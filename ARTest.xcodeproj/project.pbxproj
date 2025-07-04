@@ -6,43 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		4C2BC2E42E00AC72005734D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C2BC2CE2E00AC70005734D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C2BC2D52E00AC70005734D0;
-			remoteInfo = ARTest;
-		};
-		4C2BC2EE2E00AC72005734D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C2BC2CE2E00AC70005734D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C2BC2D52E00AC70005734D0;
-			remoteInfo = ARTest;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		4C2BC3022E00ADFA005734D0 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 4C2BC3012E00ADFA005734D0 /* FocusEntity */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C2BC2D62E00AC70005734D0 /* ARTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2BC2E32E00AC72005734D0 /* ARTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2BC2ED2E00AC72005734D0 /* ARTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4C2BC2D82E00AC70005734D0 /* ARTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ARTest;
-			sourceTree = "<group>";
-		};
-		4C2BC2E62E00AC72005734D0 /* ARTestTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARTestTests;
-			sourceTree = "<group>";
-		};
-		4C2BC2F02E00AC72005734D0 /* ARTestUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,20 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C2BC2E02E00AC72005734D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C2BC2EA2E00AC72005734D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4C2BC3022E00ADFA005734D0 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				4C2BC2D82E00AC70005734D0 /* ARTest */,
-				4C2BC2E62E00AC72005734D0 /* ARTestTests */,
-				4C2BC2F02E00AC72005734D0 /* ARTestUITests */,
 				4C2BC2D72E00AC70005734D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				4C2BC2D62E00AC70005734D0 /* ARTest.app */,
-				4C2BC2E32E00AC72005734D0 /* ARTestTests.xctest */,
-				4C2BC2ED2E00AC72005734D0 /* ARTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,56 +70,11 @@
 			);
 			name = ARTest;
 			packageProductDependencies = (
+				4C2BC3012E00ADFA005734D0 /* FocusEntity */,
 			);
 			productName = ARTest;
 			productReference = 4C2BC2D62E00AC70005734D0 /* ARTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4C2BC2E22E00AC72005734D0 /* ARTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C2BC2FA2E00AC72005734D0 /* Build configuration list for PBXNativeTarget "ARTestTests" */;
-			buildPhases = (
-				4C2BC2DF2E00AC72005734D0 /* Sources */,
-				4C2BC2E02E00AC72005734D0 /* Frameworks */,
-				4C2BC2E12E00AC72005734D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C2BC2E52E00AC72005734D0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4C2BC2E62E00AC72005734D0 /* ARTestTests */,
-			);
-			name = ARTestTests;
-			packageProductDependencies = (
-			);
-			productName = ARTestTests;
-			productReference = 4C2BC2E32E00AC72005734D0 /* ARTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4C2BC2EC2E00AC72005734D0 /* ARTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C2BC2FD2E00AC72005734D0 /* Build configuration list for PBXNativeTarget "ARTestUITests" */;
-			buildPhases = (
-				4C2BC2E92E00AC72005734D0 /* Sources */,
-				4C2BC2EA2E00AC72005734D0 /* Frameworks */,
-				4C2BC2EB2E00AC72005734D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C2BC2EF2E00AC72005734D0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4C2BC2F02E00AC72005734D0 /* ARTestUITests */,
-			);
-			name = ARTestUITests;
-			packageProductDependencies = (
-			);
-			productName = ARTestUITests;
-			productReference = 4C2BC2ED2E00AC72005734D0 /* ARTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,14 +89,6 @@
 					4C2BC2D52E00AC70005734D0 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					4C2BC2E22E00AC72005734D0 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 4C2BC2D52E00AC70005734D0;
-					};
-					4C2BC2EC2E00AC72005734D0 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 4C2BC2D52E00AC70005734D0;
-					};
 				};
 			};
 			buildConfigurationList = 4C2BC2D12E00AC70005734D0 /* Build configuration list for PBXProject "ARTest" */;
@@ -195,34 +100,21 @@
 			);
 			mainGroup = 4C2BC2CD2E00AC70005734D0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4C2BC3002E00ADFA005734D0 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4C2BC2D72E00AC70005734D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4C2BC2D52E00AC70005734D0 /* ARTest */,
-				4C2BC2E22E00AC72005734D0 /* ARTestTests */,
-				4C2BC2EC2E00AC72005734D0 /* ARTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4C2BC2D42E00AC70005734D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C2BC2E12E00AC72005734D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C2BC2EB2E00AC72005734D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +131,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C2BC2DF2E00AC72005734D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C2BC2E92E00AC72005734D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4C2BC2E52E00AC72005734D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C2BC2D52E00AC70005734D0 /* ARTest */;
-			targetProxy = 4C2BC2E42E00AC72005734D0 /* PBXContainerItemProxy */;
-		};
-		4C2BC2EF2E00AC72005734D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C2BC2D52E00AC70005734D0 /* ARTest */;
-			targetProxy = 4C2BC2EE2E00AC72005734D0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4C2BC2F52E00AC72005734D0 /* Debug */ = {
@@ -400,17 +265,19 @@
 				DEVELOPMENT_TEAM = 78NZ2MK24R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for augmented reality features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTest;
+				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,93 +295,23 @@
 				DEVELOPMENT_TEAM = 78NZ2MK24R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for augmented reality features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTest;
+				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4C2BC2FB2E00AC72005734D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78NZ2MK24R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARTest";
-			};
-			name = Debug;
-		};
-		4C2BC2FC2E00AC72005734D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78NZ2MK24R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARTest";
-			};
-			name = Release;
-		};
-		4C2BC2FE2E00AC72005734D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78NZ2MK24R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ARTest;
-			};
-			name = Debug;
-		};
-		4C2BC2FF2E00AC72005734D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78NZ2MK24R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = db.ARTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ARTest;
 			};
 			name = Release;
 		};
@@ -539,25 +336,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C2BC2FA2E00AC72005734D0 /* Build configuration list for PBXNativeTarget "ARTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C2BC2FB2E00AC72005734D0 /* Debug */,
-				4C2BC2FC2E00AC72005734D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4C2BC2FD2E00AC72005734D0 /* Build configuration list for PBXNativeTarget "ARTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C2BC2FE2E00AC72005734D0 /* Debug */,
-				4C2BC2FF2E00AC72005734D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C2BC3002E00ADFA005734D0 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C2BC3012E00ADFA005734D0 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C2BC3002E00ADFA005734D0 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C2BC2CE2E00AC70005734D0 /* Project object */;
 }
