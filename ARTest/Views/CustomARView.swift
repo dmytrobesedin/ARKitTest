@@ -80,12 +80,12 @@ class CustomARView: ARView {
     
     private func setUpARView() {
         let config = ARWorldTrackingConfiguration()
-        config.planeDetection = [.horizontal]
-//        config.environmentTexturing = .automatic
+        config.planeDetection = [.horizontal, .vertical]
+        config.environmentTexturing = .automatic
         
-//        if ARWorldTrackingConfiguration.supportsSceneReconstruction(.meshWithClassification) {
-//            config.sceneReconstruction = .meshWithClassification
-//        }
+        if ARWorldTrackingConfiguration.supportsSceneReconstruction(.meshWithClassification) {
+            config.sceneReconstruction = .meshWithClassification
+        }
         
         self.session.run(config)
     }
