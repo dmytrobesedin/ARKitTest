@@ -45,13 +45,24 @@ struct ContentView: View {
         .sheet(isPresented: $viewModel.showDebugUI, onDismiss: {
             ActionManager.shared.isDebugLoggingEnabled.toggle()
         }) {
-            ScrollView {
-                Text(viewModel.combinedDebugText)
-                    .font(.callout)
-                    .foregroundColor(.black)
-                    .textSelection(.enabled)
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
+            VStack {
+                HStack {
+                    Spacer()
+                    
+                    Button("Close") {
+                        viewModel.showDebugUI.toggle()
+                    }
+                    .padding(.trailing)
+                }
+                
+                ScrollView {
+                    Text(viewModel.combinedDebugText)
+                        .font(.callout)
+                        .foregroundColor(.black)
+                        .textSelection(.enabled)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
             }
             .padding()
             .presentationDetents(.init(([.medium, .large])))

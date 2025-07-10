@@ -68,7 +68,7 @@ class CustomARView: ARView {
         
         let modelEntity = try! ModelEntity.load(named: "frame_000_cylinders.usdz")
         modelEntity.transform.rotation = simd_quatf(angle: .pi, axis: [1, 0, 0])
-        //modelEntity.setScale(.init(x: 0.5, y: 0.5, z: 0.5), relativeTo: nil)
+        modelEntity.setScale(.init(x: 0.5, y: 0.5, z: 0.5), relativeTo: nil)
         let anchorEntity = AnchorEntity(world: focusEntity.position)
         anchorEntity.addChild(modelEntity)
         self.scene.addAnchor(anchorEntity)
